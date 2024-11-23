@@ -14,5 +14,34 @@ TORRENT_WEBSITES = {
             "SOFTWARE": "c20=1&c21=1&c18=1",
             "TV": "c41=1&c5=1&c11=1&c6=1&c7=1",
         },
+        "HTML_PARSER": {
+            "TORRENTS": {
+                "tag": "div",
+                "class": "tgxtablerow",
+            },
+            "SIZE": {
+                "tag": "span",
+                "class": "badge badge-secondary",
+            },
+            "NAME": {
+                "tag": "a",
+                "class": "txlight",
+            },
+            "SEEDERS": {
+                "tag": "font",
+                "color": "green",
+            },
+            "LEECHERS": {
+                "tag": "font",
+                "color": "#ff0000",
+            },
+            "MAGENT": {
+                "tag": "a",
+                "role": "button",
+            },
+            "FORMAT": {},
+            "UPLOADER": {},
+            "LANGUAGE": {},
+        },
     }
 }
