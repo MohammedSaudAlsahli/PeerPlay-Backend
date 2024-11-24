@@ -1,6 +1,5 @@
 import requests
 from bs4 import BeautifulSoup
-from torrents import TORRENT_WEBSITES
 
 
 class HtmlParser:
@@ -67,9 +66,12 @@ class HtmlParser:
         print(torrents_info)
 
 
-if __name__ == "__main__":
-    a = HtmlParser(
-        url="https://torrentgalaxy.mx/torrents.php?search=batman#results",
-        class_for_torrents="tgxtablerow",
-    ).get_torrent_info()
-    print(a)
+def main():
+    # a = HtmlParser(
+    #     url="https://torrentgalaxy.mx/torrents.php?search=batman#results",
+    #     class_for_torrents="tgxtablerow",
+    # ).get_torrent_info()
+    # print(a)
+    # torrent = TorrentWebsites(**TORRENT_WEBSITES)
+    # print(torrent.root["TORRENT_GALAXY"].BASE_URL)
+    ...
